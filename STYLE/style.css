@@ -151,19 +151,6 @@ p span {
   text-decoration: underline;
 }
 
-.button {
-  background-color: #4ca0af;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 25px;
-  text-align: center;
-  display: flex;
-  font-size: 15px;
-  margin: 20px 25px;
-  cursor: pointer;
-}
-
 .a-button {
   text-decoration: none;
 }
