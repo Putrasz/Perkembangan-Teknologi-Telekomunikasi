@@ -131,7 +131,7 @@ body {
   margin-top: 16rem;
   margin-bottom: 20rem;
   text-align: center;
-  animation: fadeIn 1.5s ease-in-out;
+  animation: fadeIn 1s ease-in;
 }
 
 .intro h1 {
@@ -141,7 +141,6 @@ body {
 .intro p {
   font-size: 1.2rem;
   line-height: 1.8;
-  animation: fadeIn 1.5s ease-in-out;
 }
 
 @keyframes fadeIn {
@@ -162,6 +161,7 @@ body {
   margin-top: 20px;
   margin-left: 2rem;
   margin-right: 2rem;
+  padding-bottom: 20px;
 }
 
 .card {
@@ -170,18 +170,10 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  opacity: 0.4;
-  transform: translateY(40px);
-}
-
-.card.show {
-  opacity: 1;
-  transform: translateY(-50px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .card:hover {
-  transform: translateY(-55px);
+  transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -355,6 +347,8 @@ button:hover a {
 .contact-text a:hover {
   transform: translateY(-5px); /* Moves the logo up by 20px */
 }
+
+
 
 @media (max-width: 768px) {
   .navbar-links {

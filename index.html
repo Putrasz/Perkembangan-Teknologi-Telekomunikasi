@@ -151,9 +151,8 @@
         <a href="http://discordapp.com/users/1121011061873725531"
           ><i class="fa-brands fa-discord fa-2x"></i
         ></a>
-        <a href="https://github.com/Putrasz"
-          ><i class="fa-brands fa-github fa-2x"></i
-        ></a>
+        <a href="https://wa.me/6281332412423"
+          ><i class="fa-brands fa-whatsapp fa-2x"></i></a>
       </div>
     </div>
 
@@ -165,25 +164,6 @@
         navbarLinks.classList.toggle("active");
         hamburger.classList.toggle("active");
       }
-
-      // Fungsi untuk menampilkan kartu saat terlihat
-      const observer = new IntersectionObserver(
-        (entries, observer) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add("show");
-              observer.unobserve(entry.target);
-            }
-          });
-        },
-        { threshold: 0.1 }
-      );
-
-      // Targetkan semua elemen kartu
-      const cards = document.querySelectorAll(".card");
-      cards.forEach((card) => {
-        observer.observe(card);
-      });
     </script>
   </body>
 </html>

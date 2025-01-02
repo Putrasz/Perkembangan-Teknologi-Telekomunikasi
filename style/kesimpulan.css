@@ -6,6 +6,8 @@
 
 body {
   font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
   background-color: #90d9f1;
   scroll-behavior: smooth;
   flex-wrap: wrap;
@@ -163,6 +165,15 @@ tr:hover {
   background-color: #ddd;
 }
 
+.h2-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 10vh;
+  font-size: 17px;
+}
+
 .video-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -260,6 +271,13 @@ tr:hover {
 
   td:nth-child(2) {
     width: 100px;
+  }
+
+  .h2-video {
+    height: 20vh;
+    font-size: 12px;
+    padding-left: 2px;
+    padding-right: 2px;
   }
 
   .video-grid {
