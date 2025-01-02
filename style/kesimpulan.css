@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -9,7 +10,6 @@ body {
   font-weight: 400;
   font-style: normal;
   background-color: #90d9f1;
-  scroll-behavior: smooth;
   flex-wrap: wrap;
   min-height: 100vh;
 }
